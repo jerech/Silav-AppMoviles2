@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Movil">
+        <ListPreference
+	    android:title="Número movil"
+	    android:summary="Seleccionar movil"
+	    android:key="remis"
+	    />
+        
+    </PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="Multimedia">
+	    <CheckBoxPreference
+	        android:title="Audio"
+	        android:summary="Silenciar"
+	        android:key="audio"/>
+	    <CheckBoxPreference 
+	        android:title="Pantalla"
+	        android:summary="Mantener encendida siempre"
+	        android:key="pantalla"/>
+	    
+	</PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="Red">
+	    <EditTextPreference 
+	        android:title="Direccion"
+	        android:summary="Servicio Web"
+	        android:key="direccion"/>
+	</PreferenceCategory>
+</PreferenceScreen>
